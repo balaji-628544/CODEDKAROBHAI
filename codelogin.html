@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Login-page
+        </title>
+<link rel="stylesheet" href="codelogin.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+<body>
+<h1 class="heading">
+    HAVE A LOGIN IN CODE KARO BHAI
+</h1>
+    <div class="login-way">
+    <div class="sign-up butt">
+        <button onclick="signUp()" class="butt-sub butt-up" type="button" id="signup">
+            sign-up
+        </button>
+            
+       
+    </div>
+
+    <div class="sign-in butt">
+        <button onclick="signin()" class="butt-sub butt-in" id="signin" type="button">
+            sign-in
+        </button>
+    </div>
+</div>
+    <!-- <div class="cont" id="hello"> -->
+        <div class="cont" id="hello">
+            <div class="username everyone" id="username-id">
+                <i class="fa-regular fa-user icons"></i>
+                <input type="text" class="username-sub" placeholder="username">
+                </div>
+<div class="email everyone">
+<i class="fa-regular fa-envelope icons"></i>
+<input type="email" class="email-sub" placeholder="  email-id">
+
+</div>
+<div class="password everyone">
+    <i class="fa-solid fa-lock icons"></i>
+    <input type="password" class="password-sub" placeholder="  password">
+
+
+</div>
+<div class="fgpass everyone">
+    <a href="https://google.com" class="fgpass-sub">forgot-password</a>
+
+<div class="new-acc ">
+    <a onclick="signUp()" class="fgpass-sub">create-account</a>
+</div>
+</div>
+<div class="submit everyone">
+    <script>
+        function gotopage()
+        {
+            var c=window.open("/html9ani.html");
+            document.getElementByClassName("submit-sub").c
+        }
+        function signUp()
+        {
+            
+            document.getElementById("username-id").style.display="block";
+            document.getElementById("signup").style.backgroundColor="rgb(209, 192, 195)";
+            document.getElementById("signin").style.backgroundColor="white";
+        }
+        function signin()
+        {
+            
+            document.getElementById("username-id").style.display="none";
+            document.getElementById("signup").style.backgroundColor="white";
+            document.getElementById("signin").style.backgroundColor="rgb(209, 192, 195)";
+            
+        }
+    </script>
+<button class="submit-sub" onclick="gotopage()">
+    submit
+</button>
+</div>
+</div>
+
+</body>
+
+
+
+</html>
